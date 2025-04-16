@@ -21,18 +21,17 @@ This is a **Golang-based Food Ordering System** implemented using the Gin web fr
 ```bash
 backend-challenge/
 │
-├── cmd/                 # CLI entry points (e.g., migration runner)
+├── cmd/                 # CLI entry points (e.g.App entry point, migration runner)
 ├── config/              # Configuration loader using .env
 ├── controllers/         # HTTP handlers
 ├── middlewares/         # Middleware (API key, logging, CORS)
 ├── models/              # GORM models
-├── repositories/        # DB interactions
+├── database/            # DB interactions
 ├── routes/              # Route bindings
 ├── services/            # Business logic
 ├── migrations/          # SQL migrations (up/down)
 ├── utility/             # 🔒 Large promo code files (NOT INCLUDED IN GIT)
 ├── docs/                # Swagger-generated docs
-├── main.go              # App entry point
 ├── go.mod/go.sum
 ├── .env                 # Environment variables
 ```

@@ -3,6 +3,8 @@ definitions:
   models.Order:
     description: Order model with list of products and coupon
     properties:
+      couponCode:
+        type: string
       id:
         type: string
       items:
@@ -49,7 +51,7 @@ definitions:
 host: localhost:8080
 info:
   contact:
-    name: Abhishek
+    name: Amar Singh Rathour
   description: This is a sample food ordering API.
   title: Order Food API
   version: "1.0"

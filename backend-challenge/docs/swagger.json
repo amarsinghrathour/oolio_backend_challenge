@@ -4,7 +4,7 @@
         "description": "This is a sample food ordering API.",
         "title": "Order Food API",
         "contact": {
-            "name": "Abhishek"
+            "name": "Amar Singh Rathour"
         },
         "version": "1.0"
     },
@@ -133,6 +133,9 @@
             "description": "Order model with list of products and coupon",
             "type": "object",
             "properties": {
+                "couponCode": {
+                    "type": "string"
+                },
                 "id": {
                     "type": "string"
                 },

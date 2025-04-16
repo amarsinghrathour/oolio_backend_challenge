@@ -10,7 +10,7 @@ const docTemplate = `{
         "description": "{{escape .Description}}",
         "title": "{{.Title}}",
         "contact": {
-            "name": "Abhishek"
+            "name": "Amar Singh Rathour"
         },
         "version": "{{.Version}}"
     },
@@ -139,6 +139,9 @@ const docTemplate = `{
             "description": "Order model with list of products and coupon",
             "type": "object",
             "properties": {
+                "couponCode": {
+                    "type": "string"
+                },
                 "id": {
                     "type": "string"
                 },
